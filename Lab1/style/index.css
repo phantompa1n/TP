@@ -1,0 +1,197 @@
+.task1 {
+    color: red;
+    background-color:blue;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
+.task2 {
+    color: blue;
+    background-color:red;
+    font-size: 20px;
+    font-family: Sans-serif;
+}
+
+.task3 {
+    color: yellow;
+    background-color:brown;
+    font-size: 18px;
+    font-family: Monospace;
+}
+
+.task4 {
+    color: green;
+    background-color:pink;
+    font-size: 16px;
+    font-family: Geneva;
+}
+
+.task5 {
+    color: brown;
+    background-color:green;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.task6 {
+    color: rgb(255, 0, 0);
+    background-color:yellow;
+    font-size: 12px;
+    font-family: Times;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 10px;
+    background-color: brown;
+    color: white;
+}
+
+.text-link {
+    margin: 10px 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.text-link:active {
+    background-color: blue;
+    color: white;
+    text-decoration: underline;
+}
+
+.text-link:link {
+    color: red
+}
+
+
+
+.text-link-first {
+     color: brown;
+}
+
+.text-link-second {
+    color: green;
+}
+
+.btn-first {
+     background-color: brown;
+}
+
+.btn-second {
+     background-color: hotpink;
+}
+
+.btn-third {
+     background-color: black;
+}
+
+.btn:hover {
+     background-color: green;
+     color: black;
+}
+
+.btn:active {
+    background-color: blue;
+    color: white;
+    text-decoration: underline;
+}
+
+.btn:link {
+    color: red
+}
+
+.order-list {
+    padding: 20px 20px;
+    display: inline-block;
+    background-color: hotpink;
+}
+
+.order-list li {
+    background: #ffe5e5;
+}
+
+.unorder-list {
+    padding: 20px 20px;
+    display: inline-block;
+    list-style-type: circle;
+    background-color: pink;
+}
+
+.unorder-list li {
+    background: #ffe5e5;
+}
+
+.image-group {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 50%;
+}
+
+.image-group:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.image-first {
+     margin-bottom: 20px;
+     border-radius: 20%;
+}
+
+.image-second {
+     margin-top: 20px;
+     border-radius: 8px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(33, 148, 10);
+}
+
+td {
+    background-color: rgb(188, 105, 255);
+}
+
+td:nth-child(1){
+    width: 20px;
+}
+
+td:nth-child(4){
+    width: 30px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table#t01 th {
+    color: white;
+    background-color: black;
+}
